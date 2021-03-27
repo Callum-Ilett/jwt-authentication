@@ -2,14 +2,27 @@
 
 # JWT Authentication using access and refresh tokens
 
-## Instructions for running server
+A repo for setting up authentication using Json Web Tokens
 
-```
-cd server && npm install && npm run dev
-```
+## Installing/Running locally
 
-## Instructions for running client
+- Clone or fork repo
 
-```
-cd client && npm install && npm start
-```
+  ```bash
+  - git clone <repo>
+  - cd jwt-authentication
+  - cd client && npm install
+  - cd server && npm install
+  ```
+
+- Create/configure `.env` environment with credentials in sevrer folder. A sample `.env.example` file has been provided. Make a duplicate of `.env.sample` and rename to `.env`, then configure credentials.
+
+- Run `npm run dev` in `server` to start the server and watch for changes
+- Run `npm start` in `client` to start the client and watch for changes
+
+### Prerequisites
+
+Ensure you have the following installed on your local machine:
+
+- [NodeJS](https://nodejs.org/en/download/)
+- [MongoDB](https://www.mongodb.com/download-center/community) or [Mongo Atlas](https://www.mongodb.com/download-center/cloud)
